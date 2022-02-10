@@ -1,4 +1,4 @@
-let url = 'http://www.boredapi.com/api/activity'
+let url = 'https://www.boredapi.com/api/activity'
 let data = null
 let activity;
 let type;
@@ -75,7 +75,7 @@ function reloadBtn() {
     // Check for each type
     type = document.querySelector('.select-types select').value;
     if (type == 'education' || type == 'recreational' || type == 'social' || type == 'diy' || type == 'charity' || type == 'cooking' || type == 'relaxation' || type == 'music' || type == 'busywork') {
-        url = `http://www.boredapi.com/api/activity?type=${type}`
+        url = `https://www.boredapi.com/api/activity?type=${type}`
     }
 
     // Fetch
