@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cure Boredom</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="content">
+    <header>
+        <h1>Cure Boredom</h1>
+        <p>Fight your boredom with these amazing ideas!</p>
+    </header>
+    <main>
+        <div class="search-types">
+            <h2>Select types:</h2>
+            <div class="container">
+            <div class="select-types">
+                <select id="types">
+                    <option value="">All</option>
+                    <option value="busywork">Busywork</option>
+                    <option value="charity">Charity</option>
+                    <option value="cooking">Cooking</option>
+                    <option value="diy">Diy</option>
+                    <option value="education">Education</option>
+                    <option value="music">Music</option>
+                    <option value="recreational">Recreational</option>
+                    <option value="relaxation">Relaxation</option>
+                    <option value="social">Social</option>
+                </select>
+            </div>
+            <button class="reload" onclick="reloadBtn()"><img src="./reload.svg" alt="Reload icon"></button>
+            </div>
+        </div>
+            <div class="card">
+                <h2 class="activity">Loading...</h2>
+                <div>🌟 Type: <span class="type"></span></div>
+                <div>👥 Participants: <span class="participants"></span></div>
+                <div>🎯 Accessibility: <span class="accessibility"></span></div>
+                <div>🤑 Price: <span class="price"></span></div>
+            </div>
+    </main>
+    </div>
+    <footer>
+        <a href="https://www.boredapi.com/" target="_blank">Bored Api</a>
+        <p>&copy; 2022 | Alvaro B. Godoy | Argentina</p>
+    </footer>
+</body>
+</html>
