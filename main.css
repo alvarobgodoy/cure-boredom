@@ -106,7 +106,7 @@ header p {
 
 footer {
     position: fixed;
-    padding: 1rem;
+    padding-bottom: 1rem;
     bottom: 0;
     width: 100%;
     text-align: center;
