@@ -76,6 +76,8 @@ function reloadBtn() {
     type = document.querySelector('.select-types select').value;
     if (type == 'education' || type == 'recreational' || type == 'social' || type == 'diy' || type == 'charity' || type == 'cooking' || type == 'relaxation' || type == 'music' || type == 'busywork') {
         url = `https://www.boredapi.com/api/activity?type=${type}`
+    } else {
+        url = 'https://www.boredapi.com/api/activity'
     }
 
     // Fetch
