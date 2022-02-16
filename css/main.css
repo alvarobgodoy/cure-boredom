@@ -25,13 +25,13 @@ body {
 
 header {
     padding: 1rem;
-    margin: 3rem auto;
+    margin: 1rem auto 1rem;
     text-align: center;
     max-width: fit-content;
 }
 
 header h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     margin: 0;
 }
 
@@ -45,7 +45,6 @@ header p {
     margin: 0 auto;
     padding: 1rem;
     border: 1px solid white;
-    /* text-align: center; */
 }
 
 .search-types h2 {
